@@ -1,0 +1,14 @@
+{
+  "name": "truthlens",
+  "version": "1.0.0",
+  "description": "MERN stack image verification application",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "npm run server & npm run client"
+  },
+  "keywords": ["truthlens", "image-verification", "mern", "ai-detection"],
+  "author": "",
+  "license": "ISC"
+}
